@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS3 Gradient</title>
+<meta charset="UTF-8">
+<script src=“https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js”></script>
+<style>
+div{
+border-radius:30px;
+ box-shadow: 10px 10px 5px #888888;
+}
+#div1{
+height:200px;
+width:200px;
+background-color:red;
+float:left;
+margin-left:200px;
+ background: linear-gradient(to right, red , green);
+}
+#div2{
+height:200px;
+width:200px;
+background-color:green;
+
+float:right;
+margin-right:200px;
+background: radial-gradient(ellipse farthest-side at 50% 10%, red, yellow, green);
+}
+#div3{
+height:200px;
+width:200px;
+background-color:green;
+float:right;
+margin-right:175px;
+ background: radial-gradient(circle farthest-side at 50% 10%, red, yellow, green);
+}
+p{
+text-align:center;
+padding-top:45px;
+font-size:30px;
+color:black;
+}
+</style>
+
+</head>
+<body>
+<div id="div1"><p><b>Box</b></p></div>
+<div id="div2"><p><b>Box</b></p></div>
+<div id="div3"><p><b>Box</b></p></div>
+
+</body>
+</html>
